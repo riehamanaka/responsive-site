@@ -1,0 +1,62 @@
+@import "compass";
+
+
+.photo {
+    background-image: url("../images/aomidori.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    }
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+   
+.text-box {
+    background-color: #bea300;
+    border: solid 1px skyblue;
+    margin: 10px;
+    flex: 1; 
+    height: 80px;
+}
+
+h2 {
+    margin-bottom:10px;
+}
+
+footer {
+    background-color:#bea300;
+}
+
+.button {
+          margin: auto;
+          text-align: center;
+          padding: 5px 0;
+          width: 180px;
+          display: block;
+          color: #FFF;
+          font-weight: bold;
+          background-color:#14c0c9;
+          font-size: 1rem;
+          border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .photo {
+       height: 250px; 
+    }
+    .container {
+        flex-direction: column;
+    }
+}
